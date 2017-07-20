@@ -1,0 +1,133 @@
+body{
+	width: 960px;
+	height: 180%;
+	color: #777777;
+	line-height: 150%;
+	font-family: Arial;
+}
+
+a{
+	color: #777777;
+	text-decoration: none;
+}
+a:hover{
+	color: red;
+}
+h1{
+	font-size: 30px;
+}
+h2{
+	font-size: 25px;
+}
+
+h1,h2{
+	font-family: Georgia;
+	padding: 10px 10px 10px 10px;
+}
+header{
+	width: 100%;
+	height: 80px;
+	background-color: #ffffff;
+	border-bottom: solid 5px lightgray;
+}
+#name{
+	color: white;
+	background-color: #4aaaa5;
+	float: left;
+	margin-top: 10px;
+	position: relative;
+	bottom: 10px;
+	height: 80px;
+}
+
+#directory{
+	font-size: 20px;
+	float: right;
+	padding-top: 20px;
+}
+#container{
+	margin-top: 0px;
+ 	clear: both;
+ 	background-color: #4aaaa5;
+ 	overflow: auto;
+ }
+.main-content{
+ 	width: 650px;
+ 	float: left;
+ 	border: solid 1px #dddddd;
+ 	padding: 5px 5px 5px 5px;
+ 	background-color: #ffffff;
+ }
+#sidebar{
+ 	width: 270px;
+ 	float: left;
+ 	border: solid 1px #dddddd;
+ 	padding: 5px 5px 5px 5px;
+ 	margin-left: : 10px;
+ 	background-color: #ffffff;
+ 	text-align: center;
+ }
+#bio-image{
+ 	float: left;
+ 	padding: 10px 10px 10px 10px;
+ }
+#Github{
+	width: 33%;
+	float: left;
+}
+#Linkedin{
+	width: 33%;
+	float: left;
+}
+#Stack{
+	width: 33%;
+	float: left;
+}
+footer{
+	width: 100%;
+	text-align: center;
+	background-color: #666666;
+	height: 60px;
+	padding-top: 20px;
+}
+form{
+	font-size: 25px;
+	padding-top: 10px;
+	padding-left: 20px;
+	height: 400px;
+}
+#submit{
+	font-size: 15px;
+	color: white;
+	background-color: #4aaaa5;
+	height: 40px;
+	width: 100px;
+	position: relative;
+	bottom: -90px;
+}
+input, textarea{
+	border: solid 1px #4aaaa5;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+.grouping{
+	height: 500px;
+	width: 6px;
+	margin-left: 20px;
+}
+.pictures{
+	margin: 20px 20px 20px 20px;
+	border: solid 1px #4aaaa5;
+}
+/**.images{
+	position: relative;
+	width: 50%;
+	float: left;
+	border: solid 1px #4aaaa5;
+}
+.headline{
+	position: absolute;
+	bottom: 10px;
+	left: 0px;
+	width: 100%;**/
+}
